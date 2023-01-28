@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #eee;
+    background-color:#C7D36F;
+    padding: 0 16px;
+    font-family: "Mclaren", cursive;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+
+.homeHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    margin-left: 10%;
+    border: 1px solid rgb(196, 236, 154);
+    box-shadow: 0 0 15px 5px grey;
+    height: 50vh;
+    width: 50vw;
+    background-color: #fff;
+    
+}
+.container{
+    text-align: center;
+}
+h2{
+    color: rgb(195, 226, 90);
+    display: block;
+}
+h4{
+    color: blue;
+    cursor: pointer;
+}
+.myContent{
+    margin: 1rem 0;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: green;
+    border-width: 5px;
+    width: 100%;
+    margin-top: 2.5rem;
+}

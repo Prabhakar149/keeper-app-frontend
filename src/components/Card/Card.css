@@ -1,0 +1,79 @@
+.myCard{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 02px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+.myCard h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    color: #9EB23B;
+}
+.myCard p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #C7D36F;
+}
+.cardDivClick{
+    color: rgb(97, 97, 228);
+    cursor: pointer;
+}
+.cardButton{
+    position: absolute;
+    float: right;
+    margin-left: 150px;
+    background-color: #9EB23B;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 58px;
+    height: 34px;
+    cursor: pointer;
+    outline: none;
+}
+.myCardHead{
+    color: blueviolet;
+    padding: 10px;
+    font-size: 20px;
+}
+.myCardDiv{
+    width: 100px;
+    height: 80px;
+    background-color:#C7D36F;
+    margin-left: 200%;
+    margin-top: -50%;
+}
+.myCardDiv p{
+    color: blueviolet;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* for mobile screen */
+@media only screen and (max-width: 600px) {
+    .myCardDiv{
+        width: 80px;
+        height: 60px;
+        background-color: #C7D36F;
+        margin-left: 90%;
+        margin-top: -50%;
+    }
+    .myCard{
+        background: #fff;
+        border-radius: 7px;
+        box-shadow: 02px 5px #ccc;
+        padding: 10px;
+        width: 240px;
+        /* margin: 16px; */
+        margin-top: 80px;
+        float: left;
+    }
+
+  }
+

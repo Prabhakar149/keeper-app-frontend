@@ -1,0 +1,111 @@
+.myHead{
+    width: 100px;
+    height: 80px;
+    background-color: #C7D36F;
+    margin-left: 100%;
+    margin-top: -15%;
+}
+.myCreateHead{
+    color: blueviolet;
+    padding: 10px;
+    font-size: 20px;
+}
+.myHead p{
+    color: blueviolet;
+    cursor: pointer;
+    margin-top: -10px;
+}
+form.create-note{
+    position: relative;
+    width: 28rem;
+    margin: -10px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138,137,137);
+}
+form.create-note input, form.create-note textarea{
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+}
+form.create-note .button{
+    position: absolute;
+    right: 18px;
+    bottom: -15px;
+    background: #9EB23B;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+}
+.note{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 02px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+    /* cursor: pointer; */
+}
+.note h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    color: #9EB23B;
+}
+.note p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #C7D36F;
+}
+.noteButton{
+    position: absolute;
+    float: right;
+    margin-left: 150px;
+    background-color: #9EB23B;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 58px;
+    height: 34px;
+    cursor: pointer;
+    outline: none;
+}
+.divClick{
+    color: rgb(97, 97, 228);
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+/* for mobile screen */
+@media only screen and (max-width: 600px) {
+    .myHead{
+        width: 80px;
+        height: 60px;
+        background-color: #C7D36F;
+        margin-left: 90%;
+        margin-top: -40%;
+    }
+    form.create-note{
+        position: relative;
+        width: 20rem;
+        margin: 50px auto 20px auto;
+        background: #fff;
+        padding: 15px;
+        border-radius: 7px;
+        box-shadow: 0 1px 5px rgb(138,137,137);
+    }
+
+  }
+
